@@ -15,7 +15,7 @@
         update W <- W + α * xi
         update bias <- bias + α
 
-First quadrant points & eighth quadrant points:
+**First quadrant points & eighth quadrant points:**
 ![Image](https://i.ibb.co/YkcfYYD/Ads-z.png)
-Decision plane and all samples after implementation:
+**Decision plane and all samples after implementation:**
 ![Image](https://i.ibb.co/RbdGMk5/Ads-z.png)
