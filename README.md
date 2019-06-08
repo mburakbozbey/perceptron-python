@@ -14,3 +14,8 @@
         For i <- 1 to n
         update W <- W + α * xi
         update bias <- bias + α
+
+
+![First quadrant points & eighth quadrant points:](https://pasteboard.co/IiuPZRI.png)
+
+![Decision plane and all samples after implementation:](https://pasteboard.co/IiuQzKC.png)
