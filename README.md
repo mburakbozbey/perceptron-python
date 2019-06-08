@@ -1,6 +1,6 @@
-## Implementation of Perceptron Model
+# Implementation of Perceptron Model
 
-# Procedure:
+## Procedure:
 
 1. Set random weights (W) and bias (b)
 2. First quadrant points was labeled as “1” and eighth quadrant points was labeled as “-1”
