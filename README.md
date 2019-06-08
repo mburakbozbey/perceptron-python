@@ -16,6 +16,6 @@
         update bias <- bias + α
 
 First quadrant points & eighth quadrant points:
-![Image](https://pasteboard.co/IiuPZRI.png)
+![Image](blob:https://pasteboard.co/d1c5aeea-1a6c-4cc6-994f-215c23711a82)
 Decision plane and all samples after implementation:
-![Image](https://pasteboard.co/IiuQzKC.png)
+![Image](blob:https://pasteboard.co/034c5054-e9ce-4368-a34e-bccd54af59ff)
