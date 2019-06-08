@@ -2,8 +2,8 @@
 ## Objective:
 **Pick data points:** 100 arbitrary points in 3-D space, 50 of which are in the 1st
 quadrant (x1 > 0; x2 > 0; x3 > 0) and the other 50 of which are
-in the 8th quadrant (x1 < 0; x2 < 0; x3 < 0)
-\n**Plot decision plane.**
+in the 8th quadrant (x1 < 0; x2 < 0; x3 < 0)  
+**Plot decision plane.**
 
 ## Procedure:
 
