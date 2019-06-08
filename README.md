@@ -14,12 +14,12 @@ in the 8th quadrant (x1 < 0; x2 < 0; x3 < 0)
 4. For every misclassified point (p1, p2, …, pn):  
     4.1 if First quadrant point (i.e. prediction = 1 WX+b ≥ 0 but should be < 0)  
         for i <- 1 to n:  
-        update W <- W - α * xi  
-        update bias<- bias - α  
+        -update W <- W - α * xi  
+        -update bias<- bias - α  
     4.2 if Eighth quadrant point (i.e. prediction = -1 WX+b <0 but should be >=0)  
         for i <- 1 to n:
-        update W <- W + α * xi  
-        update bias <- bias + α  
+        -update W <- W + α * xi  
+        -update bias <- bias + α  
 
 **First quadrant points & eighth quadrant points:**
 ![Image](https://i.ibb.co/YkcfYYD/Ads-z.png)
