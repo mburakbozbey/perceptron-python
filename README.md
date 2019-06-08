@@ -8,15 +8,15 @@ in the 8th quadrant (x1 < 0; x2 < 0; x3 < 0)
 
 ## Procedure:
 
-1. Set random weights (W) and bias (b)
-2. First quadrant points was labeled as “1” and eighth quadrant points was labeled as “-1”
-3. Train and test data points were splitted. ( 80% train, 20% test)
-4. For every misclassified point (p1, p2, …, pn):
-    4.1 if First quadrant point (i.e. prediction = 1 WX+b ≥ 0 but should be < 0)
+**1.** Set random weights (W) and bias (b)  
+**2.** First quadrant points was labeled as “1” and eighth quadrant points was labeled as “-1”  
+**3.** Train and test data points were splitted. ( 80% train, 20% test)  
+**4.** For every misclassified point (p1, p2, …, pn):  
+    **4.1** if First quadrant point (i.e. prediction = 1 WX+b ≥ 0 but should be < 0)  
         For i <- 1 to n
         update W <- W - α * xi
         update bias<- bias - α
-    4.2 if Eighth quadrant point (i.e. prediction = -1 WX+b <0 but should be >=0)
+    **4.2** if Eighth quadrant point (i.e. prediction = -1 WX+b <0 but should be >=0)  
         For i <- 1 to n
         update W <- W + α * xi
         update bias <- bias + α
